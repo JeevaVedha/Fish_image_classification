@@ -27,8 +27,9 @@ Web App,Streamlit
 Numerical Ops,NumPy
 
 ## 📂 Project Structure
-The structure is assumed based on the provided code snippets:
 
+The structure is assumed based on the provided code snippets:
+```plaintext
 Fish_image_classification/
 │
 ├── Data/
@@ -36,8 +37,9 @@ Fish_image_classification/
 │   └── val/                  # Validation images organized by sub-folders (classes)
 │
 ├── train_and_deploy.py       # (Implied) The main script containing both training and Streamlit code
-└── fish_model.keras          # Trained model file (saved after running the script)
+└── fish_model.keras          # Trained model file (saved after running the script) 
 
+```  
 ## ⚙️ Installation & Setup
 # 1. Requirements
 The project requires the following Python packages. You can install them via pip.
