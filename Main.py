@@ -9,8 +9,8 @@ from tensorflow.keras import layers, models
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 # Paths
-train_dir = r"C:\Users\Jeeva\Documents\Multiclass Fish image\Multiclass_Fish_Image_Classification\Data\train"
-val_dir   = r"C:\Users\Jeeva\Documents\Multiclass Fish image\Multiclass_Fish_Image_Classification\Data\val"
+train_dir = r"C:\Users\Jeeva\Documents\Fishimageclassification\Fish_image_classification\Data\train"
+val_dir   = r"C:\Users\Jeeva\Documents\Fishimageclassification\Fish_image_classification\Data\val"
 
 # Verify paths exist
 for d in [train_dir, val_dir]:
@@ -82,5 +82,5 @@ history = model.fit(
 print("Training completed.")
 
 # After training your model
-model.save(r"C:\Users\Jeeva\Documents\Multiclass Fish image\Multiclass_Fish_Image_Classification\fish_model.keras")
+model.save(r"C:\Users\Jeeva\Documents\Fishimageclassification\Fish_image_classification\fish_model.keras")
 print("Model saved to fish_model.keras")

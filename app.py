@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load your trained model
 # Make sure you save your model after training e.g. `model.save("fish_model")`
-model = tf.keras.models.load_model(r"C:\Users\Jeeva\Documents\Multiclass Fish image\Multiclass_Fish_Image_Classification\fish_model.keras")
+model = tf.keras.models.load_model(r"C:\Users\Jeeva\Documents\Fishimageclassification\Fish_image_classification\fish_model.keras")
 
 # Define a function to load and preprocess image
 def preprocess_image(image: Image.Image, target_size=(150, 150)):
